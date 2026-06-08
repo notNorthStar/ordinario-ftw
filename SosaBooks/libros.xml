@@ -38,7 +38,7 @@
             vez incomprensible.
         </opinion>
         <imagen>
-        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/cthulhu.jpg</imagen>
+        <imagen>https://cdn.kobo.com/book-images/6f87c178-ac2b-4e14-887f-aa8d7a4da101/166/300/False/la-llamada-de-cthulhu-5.jpg</imagen>
         </imagen>
         <estado>leido</estado>
         <por-que></por-que>
@@ -60,7 +60,7 @@
             Fue el primer libro "grande" que leí, aunque lo dejé a medias, se me hizo pesado de leer
             a partir de cierto punto en la trama. Me sorprendió ver que hay una serie de tv de este libro.
         </opinion>
-        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/fin-infancia.jpg</imagen>
+        <imagen>https://m.media-amazon.com/images/I/712g4AnputS._AC_UF1000,1000_QL80_.jpg</imagen>
         <estado>leido</estado>
         <por-que></por-que>
         <favorito>no</favorito>
@@ -83,7 +83,7 @@
             el tema de cerrar tratos, ventas, negocios, me parece uno de los mejores libros de la 
             historia, e intento aplicarlo a casi cualquier aspecto de mi vida
         </opinion>
-        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/influencia.jpg</imagen>
+        <imagen>https://m.media-amazon.com/images/I/71pdyN90N0L._AC_UF1000,1000_QL80_.jpg</imagen>
         <estado>leido</estado>
         <por-que></por-que>
         <favorito>no</favorito>
@@ -110,7 +110,7 @@
             inimaginables pero a la vez figuran una imagen completa en mi mente mientras leía.
             Simplemente increíble.
         </opinion>
-        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/ultima-pregunta.jpg</imagen>
+        <imagen>https://m.media-amazon.com/images/I/71i7fs8QNoL._UF1000,1000_QL80_.jpg</imagen>
         <estado>leido</estado>
         <por-que></por-que>
         <favorito>si</favorito>
@@ -133,7 +133,7 @@
             material al respecto, y encontré un cortometraje basado en el relato. Para mi fue un deleite
             ver lo que me imaginé mientras leía ahora de forma audiovisual.
         </opinion>
-        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/nueve-mil-millones.jpg</imagen>
+        <imagen>https://assets.lectulandia.co/b/ab/Arthur%20C%20Clarke/Los%20nueve%20mil%20millones%20de%20nombres%20de%20Dios%20(22)/big.jpg</imagen>
         <estado>leido</estado>
         <por-que></por-que>
         <favorito>si</favorito>
@@ -158,7 +158,7 @@
             la forma de contar las historias  y de imaginar como se fueorn haciendo los descubrimientos que
             llevaron a conocer el cuerpo humano al nivel que tenemos en nuestros días.
         </opinion>
-        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/cuerpo-humano.jpg</imagen>
+        <imagen>https://m.media-amazon.com/images/I/81Vudu0WJ0L._UF1000,1000_QL80_.jpg</imagen>
         <estado>leido</estado>
         <por-que></por-que>
         <favorito>si</favorito>
@@ -206,7 +206,7 @@
         que la serie, supongo que debe ser muy bueno. No es de tanta acción, si no más
         de política y tensión.
         </opinion>
-        <imagen>https://static.wikia.nocookie.net/hieloyfuego/images/9/98/Juego_de_Tronos_nueva.jpg/revision/latest?cb=20130204012829</imagen>
+        <imagen>https://m.media-amazon.com/images/I/81Vudu0WJ0L._UF1000,1000_QL80_.jpg</imagen>
         <estado>leido</estado>
         <por-que></por-que>
         <favorito>no</favorito>
@@ -279,7 +279,7 @@
         Me lo recomendaron y el tema me llama la atención (Debo aprender java).
         </por-que>
         <favorito>no</favorito>
-        </libro>
+    </libro>
 
     <libro id="12">
         <titulo>Dune</titulo>
