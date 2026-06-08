@@ -48,7 +48,7 @@
     <libro id="2">
         <titulo>El fin de la Infancia</titulo>
         <autor>Arthur C. Clarke</autor>
-        <genero>Ciencia Ficción</genero>
+        <genero>Ciencia ficción</genero>
         <anio>1953</anio>
         <estrellas>3.5</estrellas>
         <resumen>
@@ -92,7 +92,7 @@
     <libro id="4">
         <titulo>La Última Pregunta</titulo>
         <autor>Isaac Asimov</autor>
-        <genero>Ciencia Ficción</genero>
+        <genero>Ciencia ficción</genero>
         <anio>1956</anio>
         <estrellas>5</estrellas>
         <resumen>
@@ -119,7 +119,7 @@
     <libro id="5">
         <titulo>Los Nueve Mil Millones de Nombres de Dios</titulo>
         <autor>Arthur C. Clarke</autor>
-        <genero>Ciencia Ficción</genero>
+        <genero>Ciencia ficción</genero>
         <anio>1953</anio>
         <estrellas>4</estrellas>
         <resumen>
@@ -167,7 +167,7 @@
     <libro id="7">
         <titulo>1984</titulo>
         <autor>George Orwell</autor>
-        <genero>Ciencia Ficción</genero>
+        <genero>Ciencia ficción</genero>
         <anio>1949</anio>
         <estrellas>5</estrellas>
         <resumen>
@@ -206,7 +206,7 @@
         que la serie, supongo que debe ser muy bueno. No es de tanta acción, si no más
         de política y tensión.
         </opinion>
-        <imagen>https://m.media-amazon.com/images/I/81Vudu0WJ0L._UF1000,1000_QL80_.jpg</imagen>
+        <imagen>https://m.media-amazon.com/images/I/816fHlL9LjL._AC_UF1000,1000_QL80_.jpg</imagen>
         <estado>leido</estado>
         <por-que></por-que>
         <favorito>no</favorito>
@@ -284,7 +284,7 @@
     <libro id="12">
         <titulo>Dune</titulo>
         <autor>Frank Herbert</autor>
-        <genero>Ciencia Ficción</genero>
+        <genero>Ciencia ficción</genero>
         <anio>1965</anio>
         <estrellas>5</estrellas>
         <resumen>
