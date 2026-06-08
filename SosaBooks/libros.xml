@@ -2,7 +2,7 @@
 
 <!DOCTYPE biblioteca [
   <!ELEMENT biblioteca (libro+)>
-  <!ELEMENT libro (titulo, autor, genero, anio, estrellas, resumen, opinion, imagen)>
+  <!ELEMENT libro (titulo, autor, genero, anio, estrellas, resumen, opinion, imagen, estado, por-que, favorito)>
   <!ATTLIST libro id ID #REQUIRED>
   <!ELEMENT titulo (#PCDATA)>
   <!ELEMENT autor (#PCDATA)>
@@ -12,6 +12,9 @@
   <!ELEMENT resumen (#PCDATA)>
   <!ELEMENT opinion (#PCDATA)>
   <!ELEMENT imagen (#PCDATA)>
+  <!ELEMENT estado (#PCDATA)>
+  <!ELEMENT por-que (#PCDATA)>
+  <!ELEMENT favorito (#PCDATA)>
 ]>
 
 <biblioteca>
@@ -37,6 +40,9 @@
         <imagen>
         <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/cthulhu.jpg</imagen>
         </imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>no</favorito>
     </libro>
 
     <libro id="2">
@@ -55,6 +61,9 @@
             a partir de cierto punto en la trama. Me sorprendió ver que hay una serie de tv de este libro.
         </opinion>
         <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/fin-infancia.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>no</favorito>
     </libro>
 
     <libro id="3">
@@ -75,6 +84,9 @@
             historia, e intento aplicarlo a casi cualquier aspecto de mi vida
         </opinion>
         <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/influencia.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>no</favorito>
     </libro>
 
     <libro id="4">
@@ -99,6 +111,9 @@
             Simplemente increíble.
         </opinion>
         <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/ultima-pregunta.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>si</favorito>
     </libro>
 
     <libro id="5">
@@ -119,6 +134,9 @@
             ver lo que me imaginé mientras leía ahora de forma audiovisual.
         </opinion>
         <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/nueve-mil-millones.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>si</favorito>
     </libro>
 
     <libro id="6">
@@ -141,6 +159,9 @@
             llevaron a conocer el cuerpo humano al nivel que tenemos en nuestros días.
         </opinion>
         <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/cuerpo-humano.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>si</favorito>
     </libro>    
 
     <libro id="7">
@@ -163,6 +184,9 @@
         escrito.
         </opinion>
         <imagen>https://m.media-amazon.com/images/I/81ig5jCc76L._UF1000,1000_QL80_.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>si</favorito>
     </libro>
 
     <libro id="8">
@@ -183,6 +207,9 @@
         de política y tensión.
         </opinion>
         <imagen>https://static.wikia.nocookie.net/hieloyfuego/images/9/98/Juego_de_Tronos_nueva.jpg/revision/latest?cb=20130204012829</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>no</favorito>
     </libro>
 
     <libro id="9">
@@ -205,6 +232,9 @@
         explicados
         </opinion>
         <imagen>https://m.media-amazon.com/images/I/916Udf1CZJL._UF1000,1000_QL80_.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>si</favorito>
     </libro>
 
     <libro id="10">
@@ -225,6 +255,9 @@
         fudnamentos a bajo nivel, pero es algo pesado.
         </opinion>
         <imagen>https://m.media-amazon.com/images/I/51EyaJeebHL._AC_UF1000,1000_QL80_.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>no</favorito>
     </libro>
 
     <libro id="11">
@@ -241,9 +274,14 @@
         </resumen>
         <opinion>Pendiente de leer.</opinion>
         <imagen>https://m.media-amazon.com/images/I/81rh4tPZHqL._AC_UF1000,1000_QL80_.jpg</imagen>
+        <estado>por-leer</estado>
+        <por-que>
+        Me lo recomendaron y el tema me llama la atención (Debo aprender java).
+        </por-que>
+        <favorito>no</favorito>
         </libro>
 
-    <libro id="l12">
+    <libro id="12">
         <titulo>Dune</titulo>
         <autor>Frank Herbert</autor>
         <genero>Ciencia Ficción</genero>
@@ -257,13 +295,16 @@
             definió la ciencia ficción moderna.
         </resumen>
         <opinion>
-        Dune es un libro tan influyente que incluso Star Wars, una de mis sagas
-        favoritas y de las más relevantes en la ciencia ficción, se inspiró en la
-        obra de Frank Herbert para construir parte de su universo. 
-        La visión de Herbert sobre el poder, los recursos y los mundos desérticos 
-        dejó una huella que se refleja en la saga galáctica, demostrando la fuerza
-        y vigencia de su imaginación.
+            Dune es un libro tan influyente que incluso Star Wars, una de mis sagas
+            favoritas y de las más relevantes en la ciencia ficción, se inspiró en la
+            obra de Frank Herbert para construir parte de su universo. 
+            La visión de Herbert sobre el poder, los recursos y los mundos desérticos 
+            dejó una huella que se refleja en la saga galáctica, demostrando la fuerza
+            y vigencia de su imaginación.
         </opinion>
         <imagen>https://m.media-amazon.com/images/I/81Ua99CURsL.jpg</imagen>
+        <estado>leido</estado>
+        <por-que></por-que>
+        <favorito>no</favorito>
     </libro>
 </biblioteca>
