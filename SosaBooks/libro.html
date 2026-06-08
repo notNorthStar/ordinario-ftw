@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SosaBooks — Libro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SosaBooks</h1>
+        <p class="subtitulo">Tu Biblioteca Personal</p>
+        <nav aria-label="Navegación Principal">
+            <ul>
+                <li><a href="index.html">Biblioteca</a></li>
+                <li><a href="agregar.html">Agregar Libro</a></li>
+                <li><a href="#" id="btn-cerrar-sesion">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="seccion-libro" aria-label="Detalle del libro">
+
+        <div class="libro-portada">
+            <img id="libro-imagen" src="" alt="">
+        </div>
+
+        <div class="libro-info">
+            <h2 id="libro-titulo"></h2>
+            <p class="libro-autor" id="libro-autor"></p>
+
+            <div class="libro-meta">
+            <span class="etiqueta" id="libro-genero"></span>
+            <span class="etiqueta" id="libro-anio"></span>
+            </div>
+
+            <div class="libro-estrellas">
+            <p id="libro-estrellas-display"></p>
+
+            <form id="form-estrellas" novalidate>
+                <fieldset>
+                <legend>Modificar calificación</legend>
+
+                <label for="nueva-calificacion">Nueva calificación (0 a 5)</label>
+                <input 
+                    type="number" 
+                    id="nueva-calificacion" 
+                    name="nueva-calificacion"
+                    min="0" 
+                    max="5" 
+                    step="0.5"
+                    placeholder="Ej: 4.5">
+
+                <button type="submit">Guardar calificación</button>
+                </fieldset>
+            </form>
+
+            <p id="mensaje-estrellas" aria-live="polite"></p>
+            </div>
+
+            <div class="libro-resumen">
+            <h3>Resumen</h3>
+            <p id="libro-resumen"></p>
+            </div>
+
+            <div class="libro-opinion">
+            <h3>Mi opinión</h3>
+            <p id="libro-opinion"></p>
+            </div>
+
+        </div>
+
+        </section>
+
+        <div class="volver">
+        <a href="index.html">← Volver a la biblioteca</a>
+        </div>
+
+  </main>
+
+  <footer>
+    <p>SosaBooks — Proyecto Final Introducción al Desarrollo Web</p>
+  </footer>
+
+  <script src="libro.js"></script>
+
+</body>
+
+</html>
