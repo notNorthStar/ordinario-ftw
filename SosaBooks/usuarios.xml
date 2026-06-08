@@ -8,7 +8,7 @@
 ]>
 <usuarios>
   <usuario id="1">
-    <nombre>David</nombre>
+    <nombre>davidsossa@sosabooks.com</nombre>
     <password>libros123</password>
     <rol>admin</rol>
   </usuario>
