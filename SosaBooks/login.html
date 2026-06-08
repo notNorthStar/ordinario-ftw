@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SosaBooks - Iniciar Sesión</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+    <header>
+        <h1>SosaBooks</h1>
+        <p class="subtitulo"> Tu biblioteca Personal</p>
+    </header>
+
+    <main>
+        <section class="sección-login">
+
+            <h2>Iniciar Sesión</h2>
+
+            <form id="form-login" novalidate>
+                <div class="campo">
+                    <label for="usuario">Usuario</label>
+                    <input
+                        type="text"
+                        id="usuario"
+                        name="usuario"
+                        placeholder="Tu nombre de usuario"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for ="password">Contraseña</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Tu contraseña"
+                        required>
+                </div>
+
+                <p id="mensaje-error" class="error" aria-live="polite"></p>
+
+                <button type="submit">Entrar</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>SosaBooks - Proyeto Final | Fundamentos de Tecnologías Web</p>
+    </footer>
+    <script src="login.js"></script>
+
+</body>
+</html>
