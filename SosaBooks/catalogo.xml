@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo [
+  <!ELEMENT catalogo (libro+)>
+  <!ELEMENT libro (titulo, autor)>
+  <!ATTLIST libro id ID #REQUIRED>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+]>
+<catalogo>
+
+  <!-- Ciencia ficción -->
+  <libro id="c1">
+    <titulo>Fundación</titulo>
+    <autor>Isaac Asimov</autor>
+  </libro>
+  <libro id="c2">
+    <titulo>El Hombre Bicentenario</titulo>
+    <autor>Isaac Asimov</autor>
+  </libro>
+  <libro id="c3">
+    <titulo>2001: Una Odisea del Espacio</titulo>
+    <autor>Arthur C. Clarke</autor>
+  </libro>
+  <libro id="c4">
+    <titulo>Fahrenheit 451</titulo>
+    <autor>Ray Bradbury</autor>
+  </libro>
+  <libro id="c5">
+    <titulo>Un Mundo Feliz</titulo>
+    <autor>Aldous Huxley</autor>
+  </libro>
+  <libro id="c6">
+    <titulo>Neuromancer</titulo>
+    <autor>William Gibson</autor>
+  </libro>
+  <libro id="c7">
+    <titulo>The Martian</titulo>
+    <autor>Andy Weir</autor>
+  </libro>
+  <libro id="c8">
+    <titulo>Ender's Game</titulo>
+    <autor>Orson Scott Card</autor>
+  </libro>
+  <libro id="c9">
+    <titulo>Do Androids Dream of Electric Sheep?</titulo>
+    <autor>Philip K. Dick</autor>
+  </libro>
+  <libro id="c10">
+    <titulo>The Left Hand of Darkness</titulo>
+    <autor>Ursula K. Le Guin</autor>
+  </libro>
+
+  <!-- Terror -->
+  <libro id="c11">
+    <titulo>El Horror de Dunwich</titulo>
+    <autor>H.P. Lovecraft</autor>
+  </libro>
+  <libro id="c12">
+    <titulo>En las Montañas de la Locura</titulo>
+    <autor>H.P. Lovecraft</autor>
+  </libro>
+  <libro id="c13">
+    <titulo>It</titulo>
+    <autor>Stephen King</autor>
+  </libro>
+  <libro id="c14">
+    <titulo>The Shining</titulo>
+    <autor>Stephen King</autor>
+  </libro>
+  <libro id="c15">
+    <titulo>Dracula</titulo>
+    <autor>Bram Stoker</autor>
+  </libro>
+
+  <!-- Fantasía -->
+  <libro id="c16">
+    <titulo>El Señor de los Anillos: La Comunidad del Anillo</titulo>
+    <autor>J.R.R. Tolkien</autor>
+  </libro>
+  <libro id="c17">
+    <titulo>El Hobbit</titulo>
+    <autor>J.R.R. Tolkien</autor>
+  </libro>
+  <libro id="c18">
+    <titulo>El Nombre del Viento</titulo>
+    <autor>Patrick Rothfuss</autor>
+  </libro>
+  <libro id="c19">
+    <titulo>American Gods</titulo>
+    <autor>Neil Gaiman</autor>
+  </libro>
+  <libro id="c20">
+    <titulo>The Way of Kings</titulo>
+    <autor>Brandon Sanderson</autor>
+  </libro>
+
+  <!-- Programación y tecnología -->
+  <libro id="c21">
+    <titulo>Clean Code</titulo>
+    <autor>Robert C. Martin</autor>
+  </libro>
+  <libro id="c22">
+    <titulo>The Pragmatic Programmer</titulo>
+    <autor>Andrew Hunt y David Thomas</autor>
+  </libro>
+  <libro id="c23">
+    <titulo>Structure and Interpretation of Computer Programs</titulo>
+    <autor>Harold Abelson y Gerald Jay Sussman</autor>
+  </libro>
+  <libro id="c24">
+    <titulo>Introduction to Algorithms</titulo>
+    <autor>Thomas H. Cormen</autor>
+  </libro>
+  <libro id="c25">
+    <titulo>The Mythical Man-Month</titulo>
+    <autor>Frederick P. Brooks</autor>
+  </libro>
+
+  <!-- No ficción y divulgación -->
+  <libro id="c26">
+    <titulo>Sapiens: De Animales a Dioses</titulo>
+    <autor>Yuval Noah Harari</autor>
+  </libro>
+  <libro id="c27">
+    <titulo>El Gen Egoísta</titulo>
+    <autor>Richard Dawkins</autor>
+  </libro>
+  <libro id="c28">
+    <titulo>Cosmos</titulo>
+    <autor>Carl Sagan</autor>
+  </libro>
+  <libro id="c29">
+    <titulo>A Brief History of Time</titulo>
+    <autor>Stephen Hawking</autor>
+  </libro>
+  <libro id="c30">
+    <titulo>The Code Book</titulo>
+    <autor>Simon Singh</autor>
+  </libro>
+  <libro id="c31">
+    <titulo>Thinking, Fast and Slow</titulo>
+    <autor>Daniel Kahneman</autor>
+  </libro>
+  <libro id="c32">
+    <titulo>El Mundo y sus Demonios</titulo>
+    <autor>Carl Sagan</autor>
+  </libro>
+  <libro id="c33">
+    <titulo>Una Breve Historia de Casi Todo</titulo>
+    <autor>Bill Bryson</autor>
+  </libro>
+  <libro id="c34">
+    <titulo>Freakonomics</titulo>
+    <autor>Steven D. Levitt y Stephen J. Dubner</autor>
+  </libro>
+  <libro id="c35">
+    <titulo>The Art of War</titulo>
+    <autor>Sun Tzu</autor>
+  </libro>
+
+</catalogo>
