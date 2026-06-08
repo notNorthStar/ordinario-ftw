@@ -8,7 +8,7 @@
 ]>
 <usuarios>
   <usuario id="1">
-    <nombre>david</nombre>
+    <nombre>davidsossa@ftw.com</nombre>
     <password>libros123</password>
     <rol>admin</rol>
   </usuario>
