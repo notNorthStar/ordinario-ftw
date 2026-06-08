@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SosaBooks — Favoritos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>SosaBooks</h1>
+    <p class="subtitulo">Tu biblioteca personal</p>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Biblioteca</a></li>
+        <li><a href="por-leer.html">Por leer</a></li>
+        <li><a href="favoritos.html">Favoritos</a></li>
+        <li><a href="agregar.html">Agregar libro</a></li>
+        <li><a href="about-project.html">Sobre el proyecto</a></li>
+        <li><a href="support.html">Soporte</a></li>
+        <li><a href="#" id="btn-cerrar-sesion">Cerrar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="seccion-filtros" aria-label="Filtros de búsqueda">
+      <h2>Mis Favoritos</h2>
+
+      <div class="filtros">
+        <div class="campo">
+          <label for="buscar">Buscar</label>
+          <input
+            type="text"
+            id="buscar"
+            placeholder="Título o autor...">
+        </div>
+
+        <div class="campo">
+          <label for="filtro-genero">Género</label>
+          <select id="filtro-genero">
+            <option value="">Todos</option>
+            <option value="Terror">Terror</option>
+            <option value="Ciencia ficción">Ciencia ficción</option>
+            <option value="Psicología">Psicología</option>
+            <option value="Ciencia">Ciencia</option>
+            <option value="Fantasía">Fantasía</option>
+            <option value="Tecnología">Tecnología</option>
+            <option value="Programación">Programación</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="filtro-estrellas">Calificación mínima</label>
+          <select id="filtro-estrellas">
+            <option value="0">Todas</option>
+            <option value="3">3 o más</option>
+            <option value="4">4 o más</option>
+            <option value="5">5 Estrellas</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-tarjetas" aria-label="Libros favoritos">
+      <div id="contenedor-favoritos">
+        <!-- Las tarjetas se generan con JavaScript -->
+      </div>
+    </section>
+
+    <section class="seccion-tabla" aria-label="Tabla de favoritos">
+      <h2>Lista completa</h2>
+      <div class="tabla-scroll">
+        <table id="tabla-favoritos">
+          <thead>
+            <tr>
+              <th scope="col">Título</th>
+              <th scope="col">Autor</th>
+              <th scope="col">Género</th>
+              <th scope="col">Año</th>
+              <th scope="col">Calificación</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpo-tabla-favoritos">
+            <!-- Las filas se generan con JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>SosaBooks | Proyecto Final | Fundamentos de Tecnologías Web</p>
+  </footer>
+
+  <script src="favoritos.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SosaBooks — Sobre el Proyecto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>SosaBooks</h1>
+    <p class="subtitulo">Tu biblioteca personal</p>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Biblioteca</a></li>
+        <li><a href="por-leer.html">Por leer</a></li>
+        <li><a href="favoritos.html">Favoritos</a></li>
+        <li><a href="agregar.html">Agregar libro</a></li>
+        <li><a href="about-project.html">Sobre el proyecto</a></li>
+        <li><a href="support.html">Soporte</a></li>
+        <li><a href="#" id="btn-cerrar-sesion">Cerrar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="seccion-about" aria-label="Sobre el proyecto">
+
+      <h2>Sobre SosaBooks</h2>
+
+      <article>
+        <h3>¿Qué es SosaBooks?</h3>
+        <p>
+          SosaBooks es una biblioteca personal digital inspirada en Letterboxd,
+          pero para libros. Permite llevar un registro de los libros que has leído,
+          los que tienes pendientes, tus favoritos, y agregar nuevos títulos
+          a tu colección con calificaciones y opiniones personales.
+        </p>
+      </article>
+
+      <article>
+        <h3>¿Cómo funciona?</h3>
+        <p>
+          Los datos base de la biblioteca viven en un archivo XML que estructura
+          toda la información de cada libro. JavaScript lee ese XML dinámicamente
+          y construye la interfaz en tiempo real. Los libros nuevos que agregues
+          se guardan en el almacenamiento local del navegador y se muestran
+          junto a los del catálogo base. 
+          Nota para el profesor Rojano: no se me ocurrió otra forma de añadir libros
+          aparte de los que tengo en el catálogo usando solo XML, ya que no hay manera
+          de escribir en el archivo directo desde el navegador, por lo que se usa
+          Local Storage
+        </p>
+      </article>
+
+      <article>
+        <h3>Tecnologías utilizadas</h3>
+        <ul class="lista-tecnologias">
+          <li>
+            <span class="tech-tag">HTML5</span>
+            Estructura semántica y accesible de todas las páginas
+          </li>
+          <li>
+            <span class="tech-tag">CSS3</span>
+            Estilos, tema oscuro y diseño responsive con media queries
+          </li>
+          <li>
+            <span class="tech-tag">JavaScript</span>
+            Lectura de XML, filtrado dinámico y manejo de localStorage
+          </li>
+          <li>
+            <span class="tech-tag">XML</span>
+            Almacenamiento estructurado de los datos de la biblioteca
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Sobre el desarrollo</h3>
+        <p>
+          SosaBooks fue desarrollado como proyecto final del curso de
+          Fundamentos de Tecnologías Web. Parte del código fue escrito a mano 
+          y otra parte generada con ayuda de herramientas de AI, principalmente
+          Claude.
+          Carrera: Ingeniería en Sistemas y Tecnologías de la información
+          Alumno: Luis David Sosa Fernández
+          Profesor: Jose Rafael Rojano Cáceres
+
+        </p>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>SosaBooks | Proyecto Final | Fundamentos de Tecnologías Web</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
