@@ -2,7 +2,7 @@
 
 <!DOCTYPE biblioteca [
   <!ELEMENT biblioteca (libro+)>
-  <!ELEMENT libro (titulo, autor, genero, anio, estrellas, resumen, opinion)>
+  <!ELEMENT libro (titulo, autor, genero, anio, estrellas, resumen, opinion, imagen)>
   <!ATTLIST libro id ID #REQUIRED>
   <!ELEMENT titulo (#PCDATA)>
   <!ELEMENT autor (#PCDATA)>
@@ -11,6 +11,7 @@
   <!ELEMENT estrellas (#PCDATA)>
   <!ELEMENT resumen (#PCDATA)>
   <!ELEMENT opinion (#PCDATA)>
+  <!ELEMENT imagen (#PCDATA)>
 ]>
 
 <biblioteca>
@@ -33,6 +34,9 @@
             en mi cabeza, las cienagas, pantanos, las sectas... Todo me parece increible y a la
             vez incomprensible.
         </opinion>
+        <imagen>
+        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/cthulhu.jpg</imagen>
+        </imagen>
     </libro>
 
     <libro id="2">
@@ -50,6 +54,7 @@
             Fue el primer libro "grande" que leí, aunque lo dejé a medias, se me hizo pesado de leer
             a partir de cierto punto en la trama. Me sorprendió ver que hay una serie de tv de este libro.
         </opinion>
+        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/fin-infancia.jpg</imagen>
     </libro>
 
     <libro id="3">
@@ -69,6 +74,7 @@
             el tema de cerrar tratos, ventas, negocios, me parece uno de los mejores libros de la 
             historia, e intento aplicarlo a casi cualquier aspecto de mi vida
         </opinion>
+        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/influencia.jpg</imagen>
     </libro>
 
     <libro id="4">
@@ -92,6 +98,7 @@
             inimaginables pero a la vez figuran una imagen completa en mi mente mientras leía.
             Simplemente increíble.
         </opinion>
+        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/ultima-pregunta.jpg</imagen>
     </libro>
 
     <libro id="5">
@@ -111,6 +118,7 @@
             material al respecto, y encontré un cortometraje basado en el relato. Para mi fue un deleite
             ver lo que me imaginé mientras leía ahora de forma audiovisual.
         </opinion>
+        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/nueve-mil-millones.jpg</imagen>
     </libro>
 
     <libro id="6">
@@ -132,4 +140,5 @@
             la forma de contar las historias  y de imaginar como se fueorn haciendo los descubrimientos que
             llevaron a conocer el cuerpo humano al nivel que tenemos en nuestros días.
         </opinion>
+        <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/cuerpo-humano.jpg</imagen>
     </libro>    
