@@ -19,7 +19,7 @@
     <libro id="1">
         <titulo>La Llamada de Cthulhu</titulo>
         <autor>H.P. Lovecraft</autor>
-        <genero>Terror / Ficcion Extraña / Horror Cosmico</genero>
+        <genero>Terror</genero>
         <anio>1928</anio>
         <estrellas>4.5</estrellas>
         <resumen>
@@ -124,7 +124,7 @@
     <libro id="6">
         <titulo>El Cuerpo Humano</titulo>
         <autor>Bill Bryson</autor>
-        <genero>Ciencia /  Divulgación Científica</genero>
+        <genero>Ciencia</genero>
         <anio>2019</anio>
         <estrellas>5</estrellas>
         <resumen>
@@ -142,3 +142,104 @@
         </opinion>
         <imagen>https://github.com/notNorthStar/images.sosabooks/blob/main/cuerpo-humano.jpg</imagen>
     </libro>    
+
+    <libro id="7">
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Ciencia Ficción</genero>
+        <anio>1949</anio>
+        <estrellas>5</estrellas>
+        <resumen>
+            En un futuro distópico, Winston Smith vive bajo la vigilancia total
+            del Partido y su líder el Gran Hermano. Todo pensamiento disidente
+            es un crimen. Una novela sobre el control, la manipulación y la
+            resistencia que se volvió más relevante con cada década que pasa.
+        </resumen>
+        <opinion>
+        Un libro lento al principio, pero que introduce de gran manera a un mundo ya no tan alejado
+        de la realidad. Lo empecé a leer por que es uno de los libros básicos, no esperaba
+        que me gustara pero acabó siendo de mis favoritos. El mundo que construye
+        orwell es increible más si lo analizas desde el contexto de la época en el que fue
+        escrito.
+        </opinion>
+        <imagen>https://m.media-amazon.com/images/I/81ig5jCc76L._UF1000,1000_QL80_.jpg</imagen>
+    </libro>
+
+    <libro id="8">
+        <titulo>Canción de Hielo y Fuego: Juego de Tronos</titulo>
+        <autor>George R.R. Martin</autor>
+        <genero>Fantasía</genero>
+        <anio>1996</anio>
+        <estrellas>4.5</estrellas>
+        <resumen>
+            Las grandes casas de Westeros compiten por el Trono de Hierro mientras
+            una amenaza sobrenatural crece más allá del Muro al norte. Martin
+            construye un mundo épico donde ningún personaje está a salvo y las
+            consecuencias políticas son tan mortales como las espadas.
+        </resumen>
+        <opinion>
+        No lo he leido, pero vi la serie, y si todos dicen que el libro es mucho mejor
+        que la serie, supongo que debe ser muy bueno. No es de tanta acción, si no más
+        de política y tensión.
+        </opinion>
+        <imagen>https://static.wikia.nocookie.net/hieloyfuego/images/9/98/Juego_de_Tronos_nueva.jpg/revision/latest?cb=20130204012829</imagen>
+    </libro>
+
+    <libro id="9">
+        <titulo>Entiende la Tecnología</titulo>
+        <autor>Nate Gentile</autor>
+        <genero>Tecnología</genero>
+        <anio>2021</anio>
+        <estrellas>4.5</estrellas>
+        <resumen>
+            Gentile desmitifica conceptos tecnológicos que usamos a diario pero
+            pocas veces entendemos: inteligencia artificial, criptomonedas,
+            privacidad digital, redes sociales y más. Escrito para cualquiera,
+            sin importar su nivel técnico.
+        </resumen>
+        <opinion>
+        El autor es mi idolo en general, mi sueño es ser como el, y cuando salió
+        el libro fui de los primeros en todo méxico en tenerlo. Lo traje desde españa
+        la semana que salió. Me encantó leerlo, la forma de narrar es bastante buena
+        para ser su primer libro, y se sentía como ver sus videos famosos pero mejor
+        explicados
+        </opinion>
+        <imagen>https://m.media-amazon.com/images/I/916Udf1CZJL._UF1000,1000_QL80_.jpg</imagen>
+    </libro>
+
+    <libro id="10">
+        <titulo>El Lenguaje de Programación C</titulo>
+        <autor>Brian W. Kernighan y Dennis M. Ritchie</autor>
+        <genero>Programación</genero>
+        <anio>1978</anio>
+        <estrellas>4.5</estrellas>
+        <resumen>
+            El libro definitivo sobre C, escrito por sus propios creadores.
+            Explica el lenguaje desde sus fundamentos con ejemplos claros y
+            precisos. Considerado uno de los mejores libros técnicos jamás
+            escritos y referencia obligada para cualquier programador.
+        </resumen>
+        <opinion>
+        no soporté, C no es para mí, lo intenté leer pero lo dejé a las
+        pocas páginas. Es un gran libro que todo programador debería leer para entender
+        fudnamentos a bajo nivel, pero es algo pesado.
+        </opinion>
+        <imagen>https://m.media-amazon.com/images/I/51EyaJeebHL._AC_UF1000,1000_QL80_.jpg</imagen>
+    </libro>
+
+    <libro id="11">
+        <titulo>Think Java</titulo>
+        <autor>Allen B. Downey y Chris Mayfield</autor>
+        <genero>Programación</genero>
+        <anio>2016</anio>
+        <estrellas>4</estrellas>
+        <resumen>
+            Una introducción práctica a la programación usando Java como lenguaje.
+            Downey y Mayfield explican conceptos fundamentales como variables,
+            métodos, objetos y estructuras de datos de forma progresiva y con
+            ejercicios en cada capítulo.
+        </resumen>
+        <opinion>Pendiente de leer.</opinion>
+        <imagen>https://m.media-amazon.com/images/I/81rh4tPZHqL._AC_UF1000,1000_QL80_.jpg</imagen>
+        </libro>
+</biblioteca>
