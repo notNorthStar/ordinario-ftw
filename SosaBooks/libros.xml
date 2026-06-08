@@ -202,13 +202,10 @@
             consecuencias políticas son tan mortales como las espadas.
         </resumen>
         <opinion>
-        No lo he leido, pero vi la serie, y si todos dicen que el libro es mucho mejor
-        que la serie, supongo que debe ser muy bueno. No es de tanta acción, si no más
-        de política y tensión.
         </opinion>
         <imagen>https://m.media-amazon.com/images/I/816fHlL9LjL._AC_UF1000,1000_QL80_.jpg</imagen>
-        <estado>leido</estado>
-        <por-que></por-que>
+        <estado>por-leer</estado>
+        <por-que>Soy fan de la serie</por-que>
         <favorito>no</favorito>
     </libro>
 
