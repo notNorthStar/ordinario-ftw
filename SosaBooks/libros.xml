@@ -242,4 +242,28 @@
         <opinion>Pendiente de leer.</opinion>
         <imagen>https://m.media-amazon.com/images/I/81rh4tPZHqL._AC_UF1000,1000_QL80_.jpg</imagen>
         </libro>
+
+    <libro id="l12">
+        <titulo>Dune</titulo>
+        <autor>Frank Herbert</autor>
+        <genero>Ciencia Ficción</genero>
+        <anio>1965</anio>
+        <estrellas>5</estrellas>
+        <resumen>
+            En el desértico planeta Arrakis, la única fuente de la especia más
+            valiosa del universo, Paul Atreides se ve envuelto en una guerra
+            de poder entre casas nobles, fuerzas imperiales y el pueblo nativo
+            Fremen. Una épica sobre política, religión, ecología y destino que
+            definió la ciencia ficción moderna.
+        </resumen>
+        <opinion>
+        Dune es un libro tan influyente que incluso Star Wars, una de mis sagas
+        favoritas y de las más relevantes en la ciencia ficción, se inspiró en la
+        obra de Frank Herbert para construir parte de su universo. 
+        La visión de Herbert sobre el poder, los recursos y los mundos desérticos 
+        dejó una huella que se refleja en la saga galáctica, demostrando la fuerza
+        y vigencia de su imaginación.
+        </opinion>
+        <imagen>https://m.media-amazon.com/images/I/81Ua99CURsL.jpg</imagen>
+    </libro>
 </biblioteca>
