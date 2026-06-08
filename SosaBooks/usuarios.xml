@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios [
+  <!ELEMENT usuarios (usuario+)>
+  <!ELEMENT usuario (nombre, password, rol)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT password (#PCDATA)>
+  <!ELEMENT rol (#PCDATA)>
+]>
+<usuarios>
+  <usuario id="1">
+    <nombre>David</nombre>
+    <password>libros123</password>
+    <rol>admin</rol>
+  </usuario>
+</usuarios>

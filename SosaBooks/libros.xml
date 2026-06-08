@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblioteca [
+  <!ELEMENT biblioteca (libro+)>
+  <!ELEMENT libro (titulo, autor, genero, anio, estrellas, resumen, opinion)>
+  <!ATTLIST libro id ID #REQUIRED>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT genero (#PCDATA)>
+  <!ELEMENT anio (#PCDATA)>
+  <!ELEMENT estrellas (#PCDATA)>
+  <!ELEMENT resumen (#PCDATA)>
+  <!ELEMENT opinion (#PCDATA)>
+]>
+
+<biblioteca>
+
+    <libro id="1">
+        <titulo>La Llamada de Cthulhu</titulo>
+        <autor>H.P. Lovecraft</autor>
+        <genero>Terror / Ficcion Extraña / Horror Cosmico</genero>
+        <anio>1928</anio>
+        <estrellas>4.5</estrellas>
+        <resumen>
+            Un investigador descubre entre los papeles de su tío fallecido fragmentos de una
+            conspiración que apunta a una entidad antigua e incomprensible llamada Cthulhu.
+            Mientras más indaga, más comprende que hay verdades que la mente simmplemente no
+            está hecha para comprender.
+        </resumen>
+        <opinion>
+            Para mi este fue el libro, o más bien relato corto, que me metió al mundo de la
+            lectura. Me encanta la forma de narrar de Lovecraft, esos escenarios que imaginaba
+            en mi cabeza, las cienagas, pantanos, las sectas... Todo me parece increible y a la
+            vez incomprensible.
+        </opinion>
+    </libro>
+
+    <libro id="2">
+        <titulo>El fin de la Infancia</titulo>
+        <autor>Arthur C. Clarke</autor>
+        <genero>Ciencia Ficción</genero>
+        <anio>1953</anio>
+        <estrellas>3.5</estrellas>
+        <resumen>
+            Una raza de seres extraterrestres llega a la Tierra y en pocos años logra lo que
+            la humanidad nunca pudo: paz mundial, prosperidad, el fin de la guerra.
+            El precio a pagar, es una transformación irreversible de lo que significa ser humano
+        </resumen>
+        <opinion>
+            Fue el primer libro "grande" que leí, aunque lo dejé a medias, se me hizo pesado de leer
+            a partir de cierto punto en la trama. Me sorprendió ver que hay una serie de tv de este libro.
+        </opinion>
+    </libro>
+
+    <libro id="3">
+        <titulo>Influencia: La psicología de la Persuasión</titulo>
+        <autor>Robert B. Cialdini</autor>
+        <genero>Psicología</genero>
+        <anio>1984</anio>
+        <estrellas>4.5</estrellas>
+        <resumen>
+            Cialdini analiza los seis principios que llevan a las personas a decir que sí:
+            reciprocidad, compromiso, aprobación social, autoridad, simpatía y escasez. Un libro
+            que cambia la forma en que ves cada anuncio, conversación y desición cotidiana.
+        </resumen>
+        <opinion>
+            Una vez que lo lees, ya no puedes ver el día a día igual. Cada conversación que tienes,
+            cada compra que haces (o que no haces) te recuerda al libro. En mi caso que me gusta
+            el tema de cerrar tratos, ventas, negocios, me parece uno de los mejores libros de la 
+            historia, e intento aplicarlo a casi cualquier aspecto de mi vida
+        </opinion>
+    </libro>
+
+    <libro id="4">
+        <titulo>La Última Pregunta</titulo>
+        <autor>Isaac Asimov</autor>
+        <genero>Ciencia Ficción</genero>
+        <anio>1956</anio>
+        <estrellas>5</estrellas>
+        <resumen>
+            A lo largo de billones de años, generaciones de hummanos le hacen la misma Pregunta
+            a la computadora más poderosa de su momento en el universo: ¿Puede revertirse la
+            entropía?. La respuesta llega mucho despues, cuando ya nadie puede escucharla.
+            ... Y entonces se hizo la luz...
+            Es considerado por el propio Asimov como su mejor relato corto.
+        </resumen>
+        <opinon>
+            Es mi relato corto favorito de todos los tiempos. Asimov es mi autor de Sci-Fi 
+            favorito, y todo eso comenzó con este relato corto. La forma de describir cada etapa
+            de la humanidad, como formulaban la pregunta y el como respondía la computadora a ella
+            simplemente me encanta, los escenarios que forma en cada una de las etapas, son casi
+            inimaginables pero a la vez figuran una imagen completa en mi mente mientras leía.
+            Simplemente increíble.
+        </opinion>
+    </libro>
+
+    <libro id="5">
+        <titulo>Los Nueve Mil Millones de Nombres de Dios</titulo>
+        <autor>Arthur C. Clarke</autor>
+        <genero>Ciencia Ficción</genero>
+        <anio>1953</anio>
+        <estrellas>4</estrellas>
+        <resumen>
+            Unos monjes tibetanos contratan a dos técnicos computacionales de EU para que instalen
+            una computadora en su monasterio con un solo propósito: listar todos los posibles nombres 
+            de Dios. Según su profecía, cuando esa tarea esté completa, el universo habrá cumplido su 
+            propósito.
+        </resumen>
+        <opinon>
+            Cuando terminé de leerlo quedé encantado con ese final. Rapidamente corrí a youtube a buscar
+            material al respecto, y encontré un cortometraje basado en el relato. Para mi fue un deleite
+            ver lo que me imaginé mientras leía ahora de forma audiovisual.
+        </opinion>
+    </libro>
+
+    <libro id="6">
+        <titulo>El Cuerpo Humano</titulo>
+        <autor>Bill Bryson</autor>
+        <genero>Ciencia /  Divulgación Científica</genero>
+        <anio>2019</anio>
+        <estrellas>5</estrellas>
+        <resumen>
+            Bill Bryson recorre cada rincon del cuerpo humano con su característica mezcla de rigor
+            científico y humor: desde los pelos de la cabeza hasta los pies, pasando por todos los 
+            sistemas que conforman a nuestro queido cuerpo. Una gran guía sobre la máquina más compleja
+            del mundo, que usamos día con día y la mayoría de nosotros parece no entender.
+        </resumen>
+        <opinon>
+            Bill es mi autor favorito en general, punto. Este libro me hizo agarrar el amor por la lectura
+            científica, desde el primer capítulo quedé enamorado de la forma tan peculiar de narrar que tiene,
+            el humor que emplea y a la vez la facilidad de abstraer conceptos para que cualquiera los entienda,
+            la forma de contar las historias  y de imaginar como se fueorn haciendo los descubrimientos que
+            llevaron a conocer el cuerpo humano al nivel que tenemos en nuestros días.
+        </opinion>
+    </libro>    
